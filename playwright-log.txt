@@ -1,0 +1,85 @@
+{"level":30,"time":"2023-09-20T08:17:40.344Z","pid":24176,"hostname":"InoLaptop","msg":"Listening on 53465"}
+{"level":30,"time":"2023-09-20T08:17:40.443Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T08:17:40.443Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T08:17:40.453Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T08:17:40.453Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T08:17:40.466Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-09-20T08:17:41.375Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-09-20T08:17:41.387Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-09-20T08:17:41.387Z","pid":24176,"hostname":"InoLaptop","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-09-20T08:17:41.388Z","pid":24176,"hostname":"InoLaptop","msg":"Trace file: "}
+{"level":30,"time":"2023-09-20T08:17:41.402Z","pid":24176,"hostname":"InoLaptop","msg":"Changed active context"}
+{"level":30,"time":"2023-09-20T08:17:41.402Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method newContext"}
+{"level":30,"time":"2023-09-20T08:17:41.413Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-09-20T08:17:41.413Z","pid":24176,"hostname":"InoLaptop","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-09-20T08:17:41.740Z","pid":24176,"hostname":"InoLaptop","msg":"Video path: undefined"}
+{"level":30,"time":"2023-09-20T08:17:41.740Z","pid":24176,"hostname":"InoLaptop","msg":"Changed active page"}
+{"level":30,"time":"2023-09-20T08:17:43.649Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method newPage"}
+{"level":30,"time":"2023-09-20T08:17:43.667Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-20T08:17:43.667Z","pid":24176,"hostname":"InoLaptop","msg":"Strict mode is enabled, find Locator with id:btn-cookie in page."}
+{"level":30,"time":"2023-09-20T08:17:43.706Z","pid":24176,"hostname":"InoLaptop","msg":"Error of node method  click"}
+================= Original suppressed error =================
+locator.click: DOMException: Failed to execute 'querySelectorAll' on 'Document': 'id:btn-cookie' is not a valid selector.
+    at query (<anonymous>:3269:41)
+    at <anonymous>:3279:7
+    at SelectorEvaluatorImpl._cached (<anonymous>:3056:20)
+    at SelectorEvaluatorImpl._queryCSS (<anonymous>:3266:17)
+    at SelectorEvaluatorImpl._querySimple (<anonymous>:3146:19)
+    at <anonymous>:3094:29
+    at SelectorEvaluatorImpl._cached (<anonymous>:3056:20)
+    at SelectorEvaluatorImpl.query (<anonymous>:3087:19)
+    at Object.query (<anonymous>:3301:44)
+    at <anonymous>:3259:21
+=========================== logs ===========================
+waiting for locator('id:btn-cookie')
+============================================================
+    at internalClick (c:\ProgramData\robocorp\ht\f14fd6b_b1f3c24_6cd60f16\lib\site-packages\Browser\wrapper\index.js:8997:19)
+    at async click (c:\ProgramData\robocorp\ht\f14fd6b_b1f3c24_6cd60f16\lib\site-packages\Browser\wrapper\index.js:8978:18)
+    at async PlaywrightServer.click (c:\ProgramData\robocorp\ht\f14fd6b_b1f3c24_6cd60f16\lib\site-packages\Browser\wrapper\index.js:9923:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2023-09-20T08:17:43.716Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-09-20T08:17:43.716Z","pid":24176,"hostname":"InoLaptop","Take screenshot with options: ":{"path":"C:\\Users\\simon\\.robocorp-code\\travsport\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2023-09-20T08:17:44.109Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-09-20T08:17:44.127Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-20T08:17:44.128Z","pid":24176,"hostname":"InoLaptop","msg":"Strict mode is enabled, find Locator with \"Sport\" in page."}
+{"level":30,"time":"2023-09-20T08:17:44.250Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method click"}
+{"level":30,"time":"2023-09-20T08:17:44.257Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-20T08:17:44.257Z","pid":24176,"hostname":"InoLaptop","msg":"Strict mode is enabled, find Locator with \"Propositionshäfte\" in page."}
+{"level":30,"time":"2023-09-20T08:17:44.590Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method click"}
+{"level":30,"time":"2023-09-20T08:17:44.606Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method getElement"}
+{"level":30,"time":"2023-09-20T08:17:44.606Z","pid":24176,"hostname":"InoLaptop","msg":"Strict mode is enabled, find Locator with text=Propositioner augusti 2023 in page."}
+{"level":30,"time":"2023-09-20T08:17:44.936Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method getElement"}
+{"level":30,"time":"2023-09-20T08:17:44.946Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2023-09-20T08:17:44.946Z","pid":24176,"hostname":"InoLaptop","msg":"Strict mode is enabled, find Locator with text=Propositioner augusti 2023 in page."}
+{"level":30,"time":"2023-09-20T08:17:44.995Z","pid":24176,"hostname":"InoLaptop","msg":"Retrieved dom property for element text=Propositioner augusti 2023 containing https://www.travsport.se/siteassets/relaterade-dokument/tavling/propositioner/propositioner-augusti-2023.pdf?414"}
+{"level":30,"time":"2023-09-20T08:17:44.995Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2023-09-20T08:17:49.469Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method download"}
+{"level":30,"time":"2023-09-20T08:17:50.322Z","pid":24176,"hostname":"InoLaptop","msg":"Suggested file name: https___www.travsport.se_siteassets_relaterade-dokument_tavling_propositioner_propositioner-augusti-2023.pdf_414 and save as path: C:\\Users\\simon\\.robocorp-code\\travsport\\file.pdf\\383f1cb5-bbee-4c68-935e-f43fcaace462"}
+{"level":30,"time":"2023-09-20T08:17:50.323Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method download"}
+{"level":30,"time":"2023-09-20T08:17:59.279Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2023-09-20T08:17:59.292Z","pid":24176,"hostname":"InoLaptop","msg":"Removed page=bdbf09c1-743d-4761-bdc7-c975cb6ef385 from context=0a0cd9b9-7ebb-4694-a0ac-71917d1b09fc page stack"}
+{"level":30,"time":"2023-09-20T08:17:59.503Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (c:\ProgramData\robocorp\ht\f14fd6b_b1f3c24_6cd60f16\lib\site-packages\Browser\wrapper\index.js:9389:15)
+    at PlaywrightServer.getActiveBrowser (c:\ProgramData\robocorp\ht\f14fd6b_b1f3c24_6cd60f16\lib\site-packages\Browser\wrapper\index.js:9908:59)
+    at PlaywrightServer.setTimeout (c:\ProgramData\robocorp\ht\f14fd6b_b1f3c24_6cd60f16\lib\site-packages\Browser\wrapper\index.js:10154:57)
+    at handleUnary (c:\ProgramData\robocorp\ht\f14fd6b_b1f3c24_6cd60f16\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:833:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2023-09-20T08:17:59.516Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T08:17:59.516Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (c:\ProgramData\robocorp\ht\f14fd6b_b1f3c24_6cd60f16\lib\site-packages\Browser\wrapper\index.js:9389:15)
+    at PlaywrightServer.getActiveBrowser (c:\ProgramData\robocorp\ht\f14fd6b_b1f3c24_6cd60f16\lib\site-packages\Browser\wrapper\index.js:9908:59)
+    at PlaywrightServer.setTimeout (c:\ProgramData\robocorp\ht\f14fd6b_b1f3c24_6cd60f16\lib\site-packages\Browser\wrapper\index.js:10154:57)
+    at handleUnary (c:\ProgramData\robocorp\ht\f14fd6b_b1f3c24_6cd60f16\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:833:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2023-09-20T08:17:59.533Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T08:17:59.534Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T08:18:01.668Z","pid":24176,"hostname":"InoLaptop","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-09-20T08:18:01.669Z","pid":24176,"hostname":"InoLaptop","msg":"End of node method closeAllBrowsers"}
